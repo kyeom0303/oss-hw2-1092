@@ -2,7 +2,7 @@ def digit_sum(n):
     """n의 각 자리 숫자를 모두 더한다. 예) digit_sum(1234) -> 10"""
     total = 0
     for ch in str(n):
-        total += int(ch)
+        total += 1
     return total
 
 def lucky_number(n):
